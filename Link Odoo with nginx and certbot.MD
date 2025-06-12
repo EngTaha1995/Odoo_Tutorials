@@ -63,5 +63,5 @@ keepalive_timeout 300;
 }
 ```
 
-##Finally
+## Finally
 install certbot `sudo apt install certbot` and run `certbox --nginx` and choose your domain name
