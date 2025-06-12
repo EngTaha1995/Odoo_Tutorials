@@ -8,7 +8,9 @@ in this tutorial iam linking odoo with nginx
 edit /etc/odoo/odoo.conf file and add proxy_mode=True
 
 # Second
-install nginx and copy this content in the default file in /etc/nginx/sites-available :
+install nginx 
+`sudo apt install nginx -y`
+and copy this content in the default file in /etc/nginx/sites-available :
 ```
 #odoo server
 upstream odoo {
